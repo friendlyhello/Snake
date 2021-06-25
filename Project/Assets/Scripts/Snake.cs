@@ -33,6 +33,8 @@ public class Snake : MonoBehaviour
     private void FixedUpdate()
     {
             transform.position = new Vector3(
+
+            // Mathf.Round uses whole numbers, so it allows for grid-like movement
             Mathf.Round(transform.position.x) + _direction.x,
             Mathf.Round(transform.position.y) + _direction.y,
             0.0f
