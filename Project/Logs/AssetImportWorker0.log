@@ -435,3 +435,77 @@ System memory in use after: 179.3 MB.
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2578.
 Total: 3.191771 ms (FindLiveObjects: 0.285240 ms CreateObjectMapping: 0.162402 ms MarkObjects: 2.614040 ms  DeleteObjects: 0.129190 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003551 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.461 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.3 MB.
+System memory in use after: 180.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2582.
+Total: 4.349956 ms (FindLiveObjects: 0.413764 ms CreateObjectMapping: 0.073849 ms MarkObjects: 3.668091 ms  DeleteObjects: 0.192815 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.283 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.5 MB.
+System memory in use after: 180.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2586.
+Total: 3.013104 ms (FindLiveObjects: 0.200055 ms CreateObjectMapping: 0.072438 ms MarkObjects: 1.944433 ms  DeleteObjects: 0.795043 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3249.171901 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(1c860caa47017447cb7c22810420fb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(1c860caa47017447cb7c22810420fb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c61a0022ae450b8bcb8f27fdcd2df72') in 0.007491 seconds
+  Import took 0.011939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.987093 seconds.
+  path: Assets/Prefabs/Snake.prefab
+  artifactKey: Guid(3d3d4dda46b5b4f0cb950057f055d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Snake.prefab using Guid(3d3d4dda46b5b4f0cb950057f055d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c93497b1b9618fbac576b6947f8c860') in 2.293657 seconds
+  Import took 2.298009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.544927 seconds.
+  path: Assets/Prefabs/SnakeSegment.prefab
+  artifactKey: Guid(ec3caa085c925421a8d5ee7d6538f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SnakeSegment.prefab using Guid(ec3caa085c925421a8d5ee7d6538f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a9f90285146d798af9f132c64f34c7') in 0.011049 seconds
+  Import took 0.014759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013620 seconds.
+  path: Assets/Prefabs/SnakeSegment.prefab
+  artifactKey: Guid(ec3caa085c925421a8d5ee7d6538f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SnakeSegment.prefab using Guid(ec3caa085c925421a8d5ee7d6538f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a9f90285146d798af9f132c64f34c7') in 0.010269 seconds
+  Import took 0.015815 seconds .
+

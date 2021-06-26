@@ -1,9 +1,16 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Snake : MonoBehaviour
 {
     // Vector 2 variable for movement directions
     private Vector2 _direction;
+
+    // List of transforms that will hold snake segments
+    private List<Transform> _segment;
+
+    // Reference to snake segment prefab
+    public Transform _segmentPrefab;
 
 
     void Update()

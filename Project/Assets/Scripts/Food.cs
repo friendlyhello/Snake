@@ -25,4 +25,13 @@ public class Food : MonoBehaviour
             0.0f
             );
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Make sure "other" object colliding is Snake/Player
+        if(other.tag == "Player")
+        {
+            RandomizePosition();
+        }
+    }
 }
