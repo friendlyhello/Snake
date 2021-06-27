@@ -6,16 +6,17 @@ public class Snake : MonoBehaviour
     // Vector 2 variable for movement directions
     private Vector2 _direction = Vector2.right;
 
-    // List of transforms that will hold snake segments
-    private List<Transform> _segment;
+    // Create and initialize (new) List of T ransforms that will hold snake segments
+    private List<Transform> _segment = new List<Transform>();
 
     // Reference to snake segment prefab
     public Transform _segmentPrefab;
 
+    private int initialSize = 5;
+
     private void Start()
     {
-        _segment = new List<Transform>();
-        _segment.Add(transform);
+        ResetState();
     }
 
 
@@ -77,6 +78,11 @@ public class Snake : MonoBehaviour
 
         _segment.Clear();
         _segment.Add(transform);
+
+        for (int i = 1; i < initialSize; i++)
+        {
+            _segment.Add(Instantiate(_segmentPrefab));
+        }
 
         transform.position = Vector3.zero;
     }
