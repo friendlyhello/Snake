@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class Snake : MonoBehaviour
 {
     // Vector 2 variable for movement directions
-    private Vector2 _direction;
+    private Vector2 _direction = Vector2.right;
 
     // List of transforms that will hold snake segments
     private List<Transform> _segment;
@@ -68,12 +68,30 @@ public class Snake : MonoBehaviour
         _segment.Add(segment);
     }
 
+    private void ResetState()
+    {
+        for (int i = 1; i < _segment.Count; i++)
+        {
+            Destroy(_segment[i].gameObject);
+        }
+
+        _segment.Clear();
+        _segment.Add(transform);
+
+        transform.position = Vector3.zero;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Make sure "other" object colliding is Snake/Player
         if (other.tag == "Food")
         {
             Grow();
+        }
+
+        else if(other.tag == "Obstacle")
+        {
+            ResetState();
         }
     }
 }
