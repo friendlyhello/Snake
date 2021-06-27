@@ -23,10 +23,10 @@ public class Food : MonoBehaviour
             Mathf.Round(x),
             Mathf.Round(y),
             0.0f
-            );
+        );
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         // Make sure "other" object colliding is Snake/Player
         if(other.tag == "Player")
