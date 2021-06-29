@@ -1,20 +1,24 @@
 ﻿<Properties StartupConfiguration="{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Snake.cs">
     <Files>
-      <File FileName="Assets/Scripts/Snake.cs" Line="23" Column="18" />
-      <File FileName="Assets/Scripts/Food.cs" Line="35" Column="10" />
+      <File FileName="Assets/Scripts/Snake.cs" Line="83" Column="49" />
+      <File FileName="Assets/Scripts/Food.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Project" expanded="True" selected="True" />
+          <Node name="Project" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8a08db98-b271-4aaf-8fe5-3126ee1733d3" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d4ae7ace-714f-474b-a01f-68522ad02cbf" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
